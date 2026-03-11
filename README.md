@@ -121,18 +121,7 @@ Behavior:
 - If no regex matches, the message is skipped.
 - If `regex_filters.txt` is empty or missing, all incoming messages are routed.
 
-### 6. Optional topic filtering
-
-Create `source_topics.txt` only if you want to restrict routing to specific topics.
-
-Supported formats:
-
-```text
--1001234567890:12
-https://t.me/c/1234567890/12
-```
-
-### 7. Run the router
+### 6. Run the router
 
 ```bash
 python script.py
@@ -163,7 +152,6 @@ This prevents the same source message from being routed repeatedly.
 
 ## Notes
 
-- `source_topics.txt` is optional.
 - `regex_filters.txt` is optional but recommended for selective routing.
 - The bot uses your Telegram session, so it can work with private sources and private targets you already have access to.
 - `.env`, session files, and Python cache files are already excluded by `.gitignore`.
