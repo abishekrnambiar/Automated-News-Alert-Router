@@ -1,0 +1,11 @@
+# One regex pattern per line.
+# Lines starting with # are ignored.
+# If this file is empty or missing, the router forwards all incoming messages.
+#
+# Examples:
+# breaking\s+news
+# alert
+# signal
+# important\s+update
+# listing
+# partnership
