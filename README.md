@@ -39,7 +39,6 @@ Automated-News-Alert-Router/
 |-- script.py
 |-- README.md
 |-- requirements.txt
-|-- .gitignore
 |-- source_channels.txt
 |-- target_chats.txt
 |-- regex_filters.txt
