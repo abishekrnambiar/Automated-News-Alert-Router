@@ -4,7 +4,6 @@
 [![Telethon](https://img.shields.io/badge/Telethon-Telegram%20Automation-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://github.com/LonamiWebs/Telethon)
 [![AsyncIO](https://img.shields.io/badge/AsyncIO-Real--Time%20Processing-222222?style=for-the-badge)](https://docs.python.org/3/library/asyncio.html)
 [![Regex](https://img.shields.io/badge/Regex-Advanced%20Filtering-0F766E?style=for-the-badge)](https://docs.python.org/3/library/re.html)
-[![Status](https://img.shields.io/badge/Status-GitHub%20Ready-16A34A?style=for-the-badge)](#)
 
 A professional-grade automation engine built with Telethon. Seamlessly routes messages between channels, groups, private chats, and bots with advanced regex filtering and asynchronous processing.
 
