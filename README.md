@@ -35,13 +35,12 @@ Content Aggregation & Mirroring: Centralizes signals, alerts, or news from multi
 ## Project Structure
 
 ```text
-AUTOFORWARDBOT/
+Automated-News-Alert-Router/
 |-- script.py
 |-- README.md
 |-- requirements.txt
 |-- .gitignore
 |-- source_channels.txt
-|-- source_topics.txt          # optional
 |-- target_chats.txt
 |-- regex_filters.txt
 |-- processed_items.json
@@ -86,14 +85,6 @@ Examples:
 
 # public username
 @PublicNewsChannel
-
-# public t.me link
-https://t.me/PublicAlertFeed
-
-# private group, private chat, or bot title from your dialogs
-Private Source Group
-Saved Messages
-My Utility Bot
 ```
 
 ### 4. Configure target entities
@@ -108,13 +99,6 @@ Examples:
 
 # public username
 @MyTargetGroup
-
-# public link
-https://t.me/MyForwardChannel
-
-# private dialog/group title
-Master Monitoring Group
-Saved Messages
 ```
 
 ### 5. Configure regex filters
